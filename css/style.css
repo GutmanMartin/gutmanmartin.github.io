@@ -1,0 +1,144 @@
+/* COMMENT */
+/* acordate de poner el <link> en el HTML */
+
+/* selector {
+    (declaration) Property: value; 
+} */
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+
+
+div.main_body{
+    float:right;
+    width:82%;
+    border: 5px rgb(44, 3, 44) solid;
+    padding-left: 2%;
+}
+
+centered h2,centered img{
+    margin: 5rem 25% 0 25%;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1{
+    color: crimson;
+    text-align: center;
+}
+h1.div{
+    border: 5px dashed crimson;
+}
+
+p{
+    color: magenta;
+}
+
+.bigbold {
+    font-weight: bolder;
+    
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+}
+
+a:hover{
+    color:black;
+    background-color: grey;
+}
+
+ul, ol{
+    color: cyan;
+}
+h2, h3{
+    color: purple;
+}
+
+blockquote.grievous_quote{
+    color: crimson;
+    font-size:2rem ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    margin:0;
+    line-height: 0;
+    float: right;
+    border: white solid 0px;
+    width:50%;
+}
+
+blockquote.grievous_quote strong{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+blockquote.grievous_quote p{
+    line-height: 6rem;
+    border: px white solid;
+    margin:0; 
+}
+
+blockquote.grievous_quote h6{
+    font-size: 1rem;
+    border: white solid px;
+    margin:1rem 0 2rem 0;
+}
+
+big_pharentesis em{
+    font-size: 10rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+
+blockquote.grievous_quote cite{
+    font-size: 1rem;
+    color: rgb(65, 32, 21);
+    border: white solid px;
+    margin:0;
+    text-align: right;
+}
+
+
+
+----------------------------------------------------------*/
+
+
+nav{
+    border:0px solid lightblue;
+  }
+  
+  nav ul{
+    list-style-type:none;
+    border:px solid red ;
+    padding:0;
+     width:15%;
+     margin:0 0 0 0;
+  }
+  
+  nav li{
+   border:3px solid black;
+   background-color:rgb(78, 21, 21);
+   text-align:center;
+   margin-bottom:0.2rem;
+  }
+  
+  nav a{
+    
+    border: blue 1px solid;
+    color:black;
+    font-size:1.5rem;
+    text-decoration:none;
+    display:block;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem
+  }
+  
+  nav a:hover{
+    background-color:black;
+    color: rgb(78, 21, 21);
+  }
